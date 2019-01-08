@@ -21,7 +21,7 @@ namespace Exercise_3
             Console.WriteLine(Palindrome(1221));
             Console.WriteLine(SumOfPrimeNumbers(20));
             Console.WriteLine(PalindromeLength(123));
-            Console.WriteLine(SumOfPerfectSquare(20));
+            Console.WriteLine(SumOfPerfectSquare(30));
             Console.WriteLine(SumOfOddNumbers(10));
         }
         public static int Reverse(int n)
