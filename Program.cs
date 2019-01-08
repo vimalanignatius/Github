@@ -4,43 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReverseArray
+namespace Multiply
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int i = 0;
-            int j = 0;
-
-            int[] a1 = new int[5];
-            int[] a2 = new int[5];
-
-
-            Console.WriteLine("Enter numbers : ");
-            for (i = 0; i < 5; i++)
+            // int[] n = new int[9] { 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            
+            for(int j = 1; j <=20; j++)
             {
-
-                a1[i] = int.Parse(Console.ReadLine());
-            }
-            ReverseArray();
-
-            void ReverseArray()
-            {
-
-                for (i = 0, j = a1.Length - 1; i < a1.Length; i++)
+               Console.WriteLine(" ");
+                
+                for (int i = 2; i <= 10; i++)
                 {
+                    int c = i*j;
+                    Console.Write("\t");
+                 
 
-                    a2[i] = a1[j];
-                    j--;
-
-                }
-
-                Console.WriteLine("Reverse elements : ");
-                for (i = 0; i < 5; i++)
-                {
-                    Console.WriteLine(a2[i]);
-
+                    Console.Write( i+ " * " + j + " = " + c);
                 }
             }
 
